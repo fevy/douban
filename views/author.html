@@ -1,0 +1,22 @@
+<dl class="author">
+    <dt>本周推荐</dt>
+    <dd ng-repeat="da in datas[0].authors">
+        <div class="avatar">
+            <img src="{{da.avatar}}" alt="">
+        </div>
+        <div class="info">
+            <h5>{{da.name}}</h5>
+            <p>{{da.editor_notes}}</p>
+        </div>
+    </dd>
+    <dt>热门作者</dt>
+    <dd ng-repeat="da in datas[1].authors">
+        <div class="avatar">
+            <img src="{{da.avatar}}" alt="">
+        </div>
+        <div class="info">
+            <h5>{{da.name}}</h5>
+            <p>{{da.editor_notes}}</p>
+        </div>
+    </dd>
+</dl>
